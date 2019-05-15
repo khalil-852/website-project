@@ -1,56 +1,139 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs" id="navId">
-        <li class="nav-item">
-          <a href="#tab1Id" class="nav-link active">Active</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#tab2Id">Action</a>
-            <a class="dropdown-item" href="#tab3Id">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#tab4Id">Action</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="#tab5Id" class="nav-link">Another link</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-      
-      <!-- Tab panes -->
-      <div class="tab-content">
-        <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
-      </div>
-      
-      <script>
-        $('#navId a').click(e => {
-          e.preventDefault();
-          $(this).tab('show');
-        });
-      </script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- start Navbar -->
+    <div id="Navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#004d99">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand text-danger shadow-lg" href="#">BATAM NIAGA PERKASA</a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Home.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    <!-- End Navbar-->
+       
+         <div id="carouselSlide" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselSlide" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselSlide" data-slide-to="1"></li>
+                <li data-target="#carouselSlide" data-slide-to="2"></li>
+                <li data-target="#carouselSlide" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Pics/1004237.jpg" class="d-block w-100" alt="Tes" style="width: 100%">
+                    <div class="carousel-caption ">
+                        <h5> Insert Header Text</h5>
+                        <p>Insert Description here</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Pics/1005032(1).png" class="d-block w-100" alt="..." style="width: 100%">
+                    <div class="carousel-caption ">
+                        <h5> Insert Header Text</h5>
+                        <p>Insert Description here</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Pics/1000253.jpg" class="d-block w-100" alt="..."style="width: 100%">
+                    <div class="carousel-caption ">
+                        <h5> Insert Header Text</h5>
+                        <p>Insert Description here</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Pics/1004017.png" class="d-block w-100" alt=".."style="width: 100%">
+                    <div class="carousel-caption ">
+                        <h5> Insert Header Text</h5>
+                        <p>Insert Description here</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselSlide" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselSlide" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+<!-- footer-->
+    <footer>
+
+        <div class="container-fluid d-sm-flex bg-dark">
+            <div class="flex-row flex-fill p-5 align-content-center">
+
+                <h3 class="text-primary text-center">Contacts</h3>
+
+            </div>
+
+            <div class="flex-row flex-fill p-l-3 pr-5">
+                <h5 class="text-info pt-3 pb-3">Email</h5>
+                <p class="text-info">sales@batamniagaperkasa.com</p>
+                <p class="text-info">sales1@batamniagaperkasa.com</p>
+
+            </div>
+            <div class="flex-row flex-fill p-l-3 pr-5">
+                <h3 class="text-info pt-3 pb-3">Our Location</h3>
+                <p class="text-info">Komp. Citra Buana Industrial Park I<br>
+                    Blok A No.05-06
+                    Kampung Seraya<br>
+                    Batam - Indonesia</p>
+            </div>
+            <div class="flex-row flex-fill p-l-3 pr-5">
+                <h3 class="text-info pt-3 pb-3">Telp.</h3>
+                <p class="text-info">
+                    : (+62 778) 452558 <br>
+                    : (+62 778) 495030 <br>
+                    : (+62 778) 458025 <br>
+                    : (+62 778) 458021 <br>
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- footer-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="popper.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <title>Contacts</title>
+</head>
+
+<body>
+    <!-- start Navbar -->
+    <div id="Navbar-top">
+            <nav class="navbar navbar-expand-lg navbar-dark mb-0 pb-3" style="background-color:#007bff
+            ;font-family: 'Open Sans' , sans-serif !important;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" style="color:hsl(177, 97%, 48%)" href="#">BATAM NIAGA PERKASA</a>
+    
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ml-3 mt-2 mt-lg-0">
+                        <li class="nav-item pl-2 pr-2">
+                            <a class="nav-link" href="Home.html">Home</a>
+                        </li>
+                        <li class="nav-item active pl-2 pr-2">
+                            <a class="nav-link" href="Product.html">Product<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item pl-2 pr-2">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item pl-2 pr-2">
+                            <a class="nav-link" href="Contacts.html">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </nav>
+        </div>
+    <!-- End Navbar-->
+    <div class="container-fluid  pb-3">
+        <div class=" p-3 rounded">
+            <div class="jumbotron jumbotron-fluid rounded">
+            <h1 class="display-4 text-center">Want to Emails Us ?</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                    <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.0174052661596!2d104.0200136928235!3d1.1480520278680195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e82948e6333918f!2sPT+Batam+Niaga+Perkasa!5e0!3m2!1sid!2sid!4v1553833335122!5m2!1sid!2sid"
+                                width="300" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+            </div>
+            <div class=" col-sm pt-3 pb-3 ">
+                <form id="form" method="POST" action="" class="needs-validation" novalidate>
+                    <div class="form-group">
+                        <label for="inputFirstname4">Name</label>
+                        <div class="input-group">   
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input type="text" class="form-control" id="inputname" placeholder="name" required minlength="3" >
+                    </div>
+                            <div class="invalid-feedback">Please fill out this field minimum 3 characters !</div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm">
+
+                            <label for="NameCompany">Company Name</label>
+                            <div class="input-group">   
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-briefcase"></i></span>
+                            <input type="text" class="form-control" id="inputcompanyname" placeholder="Company Name"
+                                minlength="3" required >
+                            </div>
+                            <div class="invalid-feedback">Please fill out this field minimum 3 characters !</div>
+                        </div>
+                        <div class="col-sm">
+                            <label for="No.Telp">No.Telp</label>
+                            <input type="tel" class="form-control" id="inputNoTelp" placeholder="Telp Number"
+                                  minlength="11" maxlength="15" required >
+                            
+                            <div class="invalid-feedback">Please insert minimum 11-13 number only ! </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email"> Email</label>
+                        <div class="input-group">   
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" required >
+                        </div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"> Leave reply here</label>
+                        <textarea class="form-control" id="reply" rows="2" minlength="5" required></textarea>
+                        
+                            <div class="invalid-feedback">Please insert minimum 5 characters</div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        </div>       
+    </div>
+
+    <!-- footer-->
+    <footer style="background-color:#000 ">
+
+            <div class="container-fluid d-sm-flex">
+    
+                <div class="flex-row flex-fill pt-2 pl-2 pr-2">
+                    <h5 class="text-light  pt-3"style="color: #ff1a1a !important"><i class="far fa-envelope" style="font-size: 24 px ; "></i> &nbsp; Email </i></h5>
+                    <address style="color: #999999">sales@Batamniagaperkasa.com<br>
+                    sales1@Batamniagaperkasa.com</address>
+                </div>
+                <div class="flex-row flex-fill pt-2 pl-2 pr-3">
+                    <h5 class="text-light  pt-3"style="color: #ff1a1a !important"><i class="fas fa-map-marker-alt" style="font-size: 24 px ;"></i> &nbsp; Our Location</h5>
+                    <address style="color: #999999">Komp. Citra Buana Industrial Park I<br>
+                        Blok A No.06
+                        Kampung Seraya<br>
+                        Batam - Indonesia</address>
+                </div>
+                <div class="flex-row flex-fill pt-2 pl-2 pr-3">
+                    <h5 class="text-light  pt-3"style="color: #ff1a1a !important"><i class="fas fa-phone"></i> &nbsp; Telp.</h5>
+                    <address style="color: #999999">
+                        : (+62 778) 452558 <br>
+                        : (+62 778) 495030 <br>
+                        : (+62 778) 458025 <br>
+                        : (+62 778) 458021 <br>
+                    </address>
+                </div>
+                <div class="flex-row flex-fill pt-2 pl-2 pr-3">
+                        <h5 class="text-light  pt-3"style="color: #ff1a1a !important"><i class="fas fa-fax"></i> &nbsp; Fax</h5>
+                        <address style="color: #999999">
+                            :(+62 778) 427870
+                        </address>
+                    </div>    
+            </div>
+    
+        </footer>
+    <!-- footer-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="popper.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+            // Disable form submissions if there are invalid fields
+            (function() {
+              'use strict';
+              window.addEventListener('load', function() {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                  form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                  }, false);
+                });
+              }, false);
+            })();
+            </script>
+</body>
+
+</html>
